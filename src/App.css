@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 0%;
+  padding: 2%;
   font-size: 16px;
 }
 
 .inspiration-output{
-  width: clamp(380px, 80%, 800px);
+  width: clamp(240px, 90%, 800px);
   font-weight: 700;
   font-size: calc(1em + 1.2vmin);
   display: inline-flex;
