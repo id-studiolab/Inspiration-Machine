@@ -21,7 +21,12 @@ export const assignmentData =
         "a caveman",
         "a blind person",
         "a mechanic",
-        "Aadjan",
+        "a climate activist",
+        "Mario",
+        "a dog trainer",
+        "a barrista",
+        "an Instagram influencer",
+        "a downhill skier"
     ],
     "context": [
         "in space",
@@ -32,7 +37,11 @@ export const assignmentData =
         "at a desk",
         "in a bus",
         "in a train",
-        "on a bike"
+        "on a bike",
+        "in a noisy, crowded room",
+        "at a funeral",
+        "at the beach",
+        "hanging from the ceiling"
     ],
     "purpose": [
         "open a door",
@@ -41,18 +50,31 @@ export const assignmentData =
         "make noise",
         "create inspiration",
         "repel a monster",
-        "close a window"
+        "close a window",
+        "stay on a track",
+        "blow up a balloon",
+        "hide a face from view",
+        "pour a drink",
+        "flip an LP record",
+        "unlock a bike",
+        "lock a car",
+        "turn on the light",
+        "turn off the heating"
     ],
     "constraint": [
         "through voice alone",
         "by only using one foot",
         "with one finger",
         "by exhaling",
-        "by thought alone",
+        "",
         "with the head",
         "by using all feet",
         "by using all finger",
         "by using all arms",
-        "in absolute silence"
+        "in absolute silence",
+        "in total darkness",
+        "with a nose",
+        "behind their back",
+        "with another object"
     ]
 }

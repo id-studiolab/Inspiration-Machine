@@ -12,16 +12,24 @@ function App() {
     return this[Math.floor((Math.random()*this.length))];
   }
 
+  function changeTag(e){
+    alert (e)
+  }
+
   return (
     <div className="App">
       <h1>The Inspiration Machine ✨</h1>
       <div className="inspiration-output">
           <span>{assignmentData.assignment[0]} </span>
-          <InlineButton color="#FF006E" string={assignmentData.user.random()} />
+          <InlineButton 
+            color="#FF006E"
+            string={assignmentData.user.random()}
+            input="user"
+          />
           <span>{assignmentData.assignment[3]} </span>
-          <InlineButton color="#3A86FF" string={assignmentData.purpose.random()} />
-          <InlineButton color="#FFBE0B" string={assignmentData.constraint.random()} />
-          <InlineButton color="#8338EC" string={assignmentData.context.random()} />
+          <InlineButton color="#3A86FF" string={assignmentData.purpose.random()} input="purpose"/>
+          <InlineButton color="#FFBE0B" string={assignmentData.constraint.random()} input="constraint"/>
+          <InlineButton color="#8338EC" string={assignmentData.context.random()} input="context"/>
       </div>
       <footer>© 2022 <a href="https://frederik-ueberschaer.de" target="blank">Frederik Ueberschär</a> & <a href="https://studiolab.ide.tudelft.nl/studiolab/about/" target="blank">StudioLab</a> </footer>
     </div>

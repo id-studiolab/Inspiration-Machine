@@ -1,9 +1,33 @@
+import { useState } from 'react'
 import './InlineButton.css'
 
-const InlineButton = (props) => {
+import { assignmentData } from '../../data/switch-assignment'
+
+
+
+const InlineButton = ({color, string, input}) => {
+
+  Array.prototype.random = function () {
+    return this[Math.floor((Math.random()*this.length))];
+  }
+
+  const dynamicField = `${input}`
+  const {[dynamicField]: scopedArray} = assignmentData;
+
+  const [label, setLabel] = useState(scopedArray.random())
+
+  function updateLabel(){
+    setLabel(scopedArray.random())
+  }
+
   return (
-    <div className="inlineButton" style={{backgroundColor: `${props.color}`}}>
-      {props.string}
+    <div 
+      className="inlineButton"
+      style={{backgroundColor: `${color}`}}
+      onClick={updateLabel}
+    >
+      {/* {props.string} */}
+      {label}
     </div>
   )
 }

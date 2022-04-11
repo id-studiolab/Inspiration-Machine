@@ -9,6 +9,11 @@
   font-size: 16px;
 }
 
+h1{
+  /* font-size: calc(1em + 1.2vmin); */
+  font-size: clamp(1em, calc(1em + 2vmin), 5em);
+}
+
 .inspiration-output{
   width: clamp(240px, 90%, 800px);
   font-weight: 700;
@@ -18,3 +23,5 @@
   flex-wrap: wrap;
   gap: 0.8em;
 }
+
+
