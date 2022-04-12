@@ -1,8 +1,26 @@
+
 .inlineButton{
     background-color: red;
     display: inline-block;
     padding: 0.4em 0.8em;
     border-radius: 0.4em;
+    cursor: pointer;
     /* box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.1), inset 4px 4px 0px rgba(255, 255, 255, 0.32); */
+    box-shadow: inset 0px -0.2em rgba(0,0,0,0.5);
+    transition-duration: 300ms;
+}
+
+.inlineButton:hover{
+    filter: brightness(130%)
+}
+
+.inlineButton:active{
+    filter: brightness(90%);
+    box-shadow: inset 0px -0.1em rgba(0,0,0,0.5);
+    transform: translateY(0.1em);
+    
+}
+
+.inlineButton:active{
 
 }

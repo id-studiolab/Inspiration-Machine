@@ -66,7 +66,6 @@ export const assignmentData =
         "by only using one foot",
         "with one finger",
         "by exhaling",
-        "",
         "with the head",
         "by using all feet",
         "by using all finger",
