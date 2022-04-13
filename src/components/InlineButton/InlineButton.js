@@ -7,6 +7,7 @@ import { assignmentData } from '../../data/switch-assignment'
 
 const InlineButton = ({color, input}) => {
 
+  // eslint-disable-next-line no-extend-native
   Array.prototype.random = function () {
     return this[Math.floor((Math.random()*this.length))];
   }
