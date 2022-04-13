@@ -17,10 +17,5 @@
 .inlineButton:active{
     filter: brightness(90%);
     box-shadow: inset 0px -0.1em rgba(0,0,0,0.5);
-    transform: translateY(0.1em);
-    
-}
-
-.inlineButton:active{
-
+    transform: translateY(0.1em);   
 }

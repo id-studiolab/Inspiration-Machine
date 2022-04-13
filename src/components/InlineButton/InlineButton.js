@@ -5,7 +5,7 @@ import { assignmentData } from '../../data/switch-assignment'
 
 
 
-const InlineButton = ({color, string, input}) => {
+const InlineButton = ({color, input}) => {
 
   Array.prototype.random = function () {
     return this[Math.floor((Math.random()*this.length))];
@@ -26,7 +26,6 @@ const InlineButton = ({color, string, input}) => {
       style={{backgroundColor: `${color}`}}
       onClick={updateLabel}
     >
-      {/* {props.string} */}
       {label}
     </div>
   )
