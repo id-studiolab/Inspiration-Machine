@@ -26,7 +26,9 @@ export const assignmentData =
         "a dog trainer",
         "a barrista",
         "an Instagram influencer",
-        "a downhill skier"
+        "a downhill skier",
+        "a young child",
+        "a wheelchair user"
     ],
     "context": [
         "in space",
@@ -41,7 +43,10 @@ export const assignmentData =
         "in a noisy, crowded room",
         "at a funeral",
         "at the beach",
-        "hanging from the ceiling"
+        "hanging from the ceiling",
+        "while passing by at high speed",
+        "while looking in the opposite direction",
+        "in bed at night"
     ],
     "purpose": [
         "open a door",
@@ -59,7 +64,13 @@ export const assignmentData =
         "unlock a bike",
         "lock a car",
         "turn on the light",
-        "turn off the heating"
+        "turn off the heating",
+        "open sun blinds",
+        "open a valve",
+        "release a break",
+        "get attention",
+        "get food",
+        "get some light"
     ],
     "constraint": [
         "through voice alone",
@@ -74,6 +85,9 @@ export const assignmentData =
         "in total darkness",
         "with a nose",
         "behind their back",
-        "with another object"
+        "with another object",
+        "by using an elbow",
+        "by sitting",
+        "by using one heel"
     ]
 }
